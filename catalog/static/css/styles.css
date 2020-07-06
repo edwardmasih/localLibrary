@@ -1,0 +1,9 @@
+:root{
+    padding: 1rem;
+}
+
+.sidebar-nav {
+    margin-top: 1rem;
+    padding: 0;
+    list-style: none;
+}
