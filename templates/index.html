@@ -12,5 +12,5 @@
     <li><strong>Authors:</strong> {{ num_authors }}</li>
   </ul>
   <p>You have visited this page {{ num_visits }} time{{ num_visits|pluralize }}.</p>
-  <a href="{% url 'deleteSession' %}">Click here to delete session</a>
+  <a href="{% url 'deleteSession' %}" class="btn btn-primary" role="button">Click here to delete session</a>
 {% endblock %}
